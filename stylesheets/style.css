@@ -1,0 +1,74 @@
+html, body{
+	background: linear-gradient(225deg, #29524A, #E9BCB7);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: relative;
+
+}
+h1{
+	color: #151515;
+	left: 0;
+	text-align: center;
+}
+.container{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50%;
+	height: 80%;
+	text-align: center;	
+	right: 0;
+	border: 1px #505050 solid;
+	box-shadow: 0 0 50px #151515;
+}
+form{
+	margin: 5%;
+}
+.list{
+	padding: 5% 35% 5% 5%;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 1.5%;
+	border: 3px #151515 solid ;
+}
+.btn, .list:focus{
+	outline: none;
+}
+.btn{
+	margin-left: 1.5%;
+	padding: 3.5% 5% 3.5% 5%;
+	border-radius: 25%;
+	border: #151515 solid 3px;
+	background-color: #00ff00;
+	font-size: 15px;
+	font-weight: bold;
+	transition: background-color 1s;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: rgba(0,153,0);
+}
+
+ol{
+	width: 70%;
+	padding-left: 15%;
+}
+li{
+	line-height: 2.5vw;
+	border:1px solid #505050;
+}
+ol li:nth-child(even){
+	background: lightgray;
+}
+ol li:nth-child(odd){
+	background: white;
+}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
